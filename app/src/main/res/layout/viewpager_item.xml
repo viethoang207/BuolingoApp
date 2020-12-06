@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_flashcard"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="80dp"
+        android:id="@+id/VPI_img"></ImageView>
+    <TextView
+        android:textColor="#DC2222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dog"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:id="@+id/VPI_tvTu"></TextView>
+    <TextView
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nghĩa : Con chó"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/VPI_tvNghia"></TextView>
+
+
+</LinearLayout>

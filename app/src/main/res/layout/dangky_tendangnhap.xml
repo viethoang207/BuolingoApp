@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lyt_DangKi1">
+
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tạo tài khoản người dùng "
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:id="@+id/DangKy3_textDiaChiEmail"
+        ></TextView>
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron_khongmau"
+        android:layout_marginTop="25dp"
+        android:hint="Tên đăng nhập"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:id="@+id/DangKy3_edtTenDN"></EditText>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron_tieptuc"
+        android:text="Tiếp tục"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:id="@+id/DangKy3_btnTiepTuc"
+        android:clickable="false"
+        ></Button>
+
+
+
+</LinearLayout>

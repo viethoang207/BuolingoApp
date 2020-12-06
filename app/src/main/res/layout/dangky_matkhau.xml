@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lyt_DangKi1">
+
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoàn tất tài khoản của bạn "
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:id="@+id/DangKy4_textHoanTat"
+        ></TextView>
+
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron_khongmau"
+        android:layout_marginTop="15dp"
+        android:hint="Mật khẩu"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:id="@+id/DangKy4_edtMK1"></EditText>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron_khongmau"
+        android:layout_marginTop="15dp"
+        android:hint="Xác nhận mật khẩu"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:id="@+id/DangKy4_edtMK2"></EditText>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron_tieptuc"
+        android:text="Hoàn tất"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        android:id="@+id/DangKy4_btnTiepTuc"
+        android:clickable="false"
+        ></Button>
+
+
+
+</LinearLayout>

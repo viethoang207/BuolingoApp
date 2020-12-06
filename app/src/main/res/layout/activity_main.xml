@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fefefe"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/animation"
+        app:lottie_loop="true"
+        app:lottie_fileName="bee.json"
+        app:lottie_autoPlay="true"
+        ></com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buolingo"
+        android:textSize="75sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textBuolingo"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English handbook for everyone"
+        android:id="@+id/textHNNMP"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        ></TextView>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron"
+        android:text="Bắt đầu ngay"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:id="@+id/LayoutMain_btnBatDauNgay"></Button>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botron_khongmau"
+        android:text="Tôi đã có tài khoản"
+        android:textColor="#90d12e"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:id="@+id/LayoutMain_btnDaCoTaiKhoan"></Button>
+
+</LinearLayout>

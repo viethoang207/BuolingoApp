@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:id="@+id/dongtintuc_img"
+
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="10 cách nói tiếng anh hiệu quả nhất từ người bản địa"
+        android:textSize="30sp"
+        android:textColor="#FA0E0E"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/dongtintuc_tvNoiDung"></TextView>
+</LinearLayout>

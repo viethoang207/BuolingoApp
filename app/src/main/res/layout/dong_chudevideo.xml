@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/botron_chudevideo"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp">
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dongCDVD_TenChuDeVD"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Các thì trong tiếng Anh"
+            android:textSize="25sp"
+            android:textColor="#000000"></TextView>
+        <TextView
+            android:id="@+id/dongCDVD_NoiDungChuDeVD"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiện tại đơn, hiện tại hoàn thành, ..."
+            android:textSize="15sp"
+            ></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_rightarrow"
+        ></ImageView>
+
+</LinearLayout>

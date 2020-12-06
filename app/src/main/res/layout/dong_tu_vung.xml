@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="horizontal"
+    android:background="@drawable/botron_tuvung"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/dongTV_imgTu"
+        android:layout_marginLeft="20dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_dongvat"></ImageView>
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog"
+            android:textSize="30sp"
+            android:id="@+id/dongTV_tvTu"
+            android:textColor="#ED1010"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chó"
+            android:textSize="30sp"
+            android:id="@+id/dongTV_tvNghia"
+            android:textColor="#9C27B0"></TextView>
+    </LinearLayout>
+</LinearLayout>

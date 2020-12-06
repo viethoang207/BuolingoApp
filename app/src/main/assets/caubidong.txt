@@ -1,0 +1,104 @@
+•	THÌ HIỆN TẠI ĐƠN (Simple Present)
+S + V(s/es) + O
+Ex: They sell bread here. 
+
+S + am/is/are + V3/ed + (by + O)
+Ex: Bread is sold here (by them).
+
+•	THÌ HIỆN TẠI TIẾP DIỄN (Present Continuous)
+S + am/is/are + V_ing + O
+Ex: They are selling bread here. 
+
+S + am/is/are + being + V3/ed + (by + O)
+Ex: Bread is being sold here (by them).
+
+•	THÌ HIỆN TẠI HOÀN THÀNH (Present Perfect)
+S + has/have + V3/ed + O
+Ex: They have sold bread here.
+
+S + has/have + been + V3/ed + (by + O)
+Ex: Bread has been sold here (by them).
+
+•	THÌ HIỆN TẠI HOÀN THÀNH TIẾP DIỄN (Present Perfect Continuous)
+S + have/has + been + V_ing + O
+Ex: They have been selling bread here.
+
+S + have/ has + been + being + V3/ed +(by + O)
+Ex: Bread has been being sold here (by them).
+
+•	THÌ QUÁ KHỨ ĐƠN (Simple Past)
+S + V2/ed + O
+Ex: They sold bread here.
+
+S + was/were + V3/ed + (by + O)
+Ex: Bread was sold here (by them).
+
+•	THÌ QUÁ KHỨ TIẾP DIỄN (Past Continuous)
+S + was/were + V_ing + O
+Ex: They were selling bread here.
+
+S + was/were + being + V3/ed + (by + O)
+Ex: Bread was being sold here (by them).
+
+•	THÌ QUÁ KHỨ HOÀN THÀNH (Past Perfect)
+S + had + V3/ed + O
+Ex: They had sold bread here.
+
+S + had + been + V3/ed + (by + O)
+Ex: Bread had been sold here (by them).
+
+•	THÌ QUÁ KHỨ HOÀN THÀNH TIẾP DIỄN (Past Perfect Continuous)
+S + had + been + V_ing + O
+Ex: They had been selling bread here.
+
+S + had + been + being + V3/ed + (by + O)
+Ex: Bread had been being sold here (by them).
+
+•	THÌ TƯƠNG LAI ĐƠN (Simple Future)
+S + will/shall + V_inf + O
+Ex: They will sell bread here.
+
+S + will + be + V3/ed + (by + O)
+Ex: Bread will be sold here (by them).
+
+•	THÌ TƯƠNG LAI TIẾP DIỄN (Future Continuous)
+S + will + be + V_ing + O
+Ex: They will be selling here.
+
+S + will + be + being + V3/ed + (by + O)
+Ex: Bread will be being sold here (by them).
+
+•	THÌ TƯƠNG LAI HOÀN THÀNH (Future Perfect)
+S + will/shall + have + V3/ed + O
+Ex: They will have sold bread here.
+
+S + will + have + been + V3/ed + (by + O)
+Ex: Bread will have been sold (by them).
+
+•	THÌ TƯƠNG LAI HOÀN THÀNH TIẾP DIỄN (Future Perfect Continuous)
+S + will + have been + V_ing + O
+Ex: They will have been selling bread here.
+
+S + will + have + been + being + V3/ed + (by + O)
+Ex: Bread will have been being sold here (by them).
+
+•	THÌ TƯƠNG LAI GẦN (Near Future)
+S + am/is/are + going to + V + O
+Ex: They are going to sell bread here.
+
+S + am/is/are + going to + be + V3/ed + (by + O)
+Ex: Bread is going to be sold (by them).
+
+•	ĐỘNG TỪ KHUYẾT THIẾU (Model Verbs)
+S + must/ should/ can/ may + V_inf+ O
+Ex: They should sell bread here.
+
+S + must/ should/ can/ may + be + V3/ed + (by + O)
+Ex: Bread should be sold here (by them).
+
+Have to/ Has to
+S + have/ has to + V_inf + O
+Ex: They have to sell bread here.
+
+S + have/ has to + be + V3/ed + (by + O)
+Ex: Bread has to be sold (by them).

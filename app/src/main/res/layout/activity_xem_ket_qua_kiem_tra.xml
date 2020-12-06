@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XemKetQuaKiemTra">
+    <com.airbnb.lottie.LottieAnimationView
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_fileName="congratulation.json"
+
+        android:id="@+id/Lottie_XemKQ"></com.airbnb.lottie.LottieAnimationView>
+
+    <LinearLayout
+        android:layout_marginTop="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đề số : "
+            android:textSize="30sp"></TextView>
+        <TextView
+            android:id="@+id/XemKQ_tvTenDeThi"
+            android:textStyle="bold"
+            android:textColor="#8BC34A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sơ cấp 1"
+            android:textSize="30sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng thời gian thi : "
+            android:textSize="30sp"></TextView>
+        <TextView
+            android:id="@+id/XemKQ_tvThoiGian"
+            android:textStyle="bold"
+            android:textColor="#F60000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150s"
+            android:textSize="30sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số câu đúng : "
+            android:textSize="30sp"></TextView>
+        <TextView
+            android:id="@+id/XemKQ_tvSoCauDung"
+            android:textStyle="bold"
+            android:textColor="#1C35D6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5/10"
+            android:textSize="30sp"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐÁNH GIÁ CHUNG"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:textColor="#5E1F1F"
+        android:layout_marginTop="35sp"></TextView>
+    <TextView
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Trung Bình"
+        android:id="@+id/XemKQ_tvDanhGia"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Xem đáp án"
+            android:id="@+id/XemKQ_btnXemDA"></Button>
+        <Button
+            android:layout_marginLeft="25dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Trở lại"
+            android:id="@+id/XemKQ_btnTroLai"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/background_mhc"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhChinh">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        app:lottie_fileName="bee.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"></com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buolingo - Sổ Tay Tiếng Anh"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/MHC_tvBuolingo"></TextView>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:elevation="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/botron_button_hoctap"
+                android:drawableLeft="@drawable/ic_tuvung"
+                android:paddingLeft="20dp"
+                android:text="Từ vựng"
+                android:textSize="30sp"
+                android:textColor="#639F27"
+                android:textAlignment="center"
+                android:id="@+id/MHC_btnTuVung"
+                ></Button>
+
+            <Button
+                android:id="@+id/MHC_btnTraCau"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron_button_hoctap"
+                android:drawableLeft="@drawable/ic_tracau"
+                android:paddingLeft="20dp"
+                android:text="Mẫu câu"
+                android:textAlignment="center"
+                android:textColor="#1E4580"
+                android:textSize="30sp"></Button>
+
+            <Button
+                android:id="@+id/MHC_btnBangDongTu"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron_button_hoctap"
+                android:drawableLeft="@drawable/ic_verb"
+                android:paddingLeft="20dp"
+                android:text="Bảng động từ"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="30sp"></Button>
+
+
+
+
+            <Button
+                android:id="@+id/MHC_btnVideo"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron_button_hoctap"
+                android:drawableLeft="@drawable/ic_video"
+                android:paddingLeft="20dp"
+                android:text="VIDEO"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="30sp"></Button>
+
+            <Button
+                android:id="@+id/MHC_btnKiemTra"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron_button_hoctap"
+                android:drawableLeft="@drawable/ic_kiemtra"
+                android:paddingLeft="20dp"
+                android:text="Kiểm tra"
+                android:textAlignment="center"
+                android:textColor="#324520"
+                android:textSize="30sp"></Button>
+
+
+
+
+            <Button
+                android:id="@+id/MHC_btnTrangChu"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron_button_hoctap"
+                android:drawableLeft="@drawable/ic_home2"
+                android:paddingLeft="20dp"
+                android:text="Trang chủ"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <GridLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="450dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:columnCount="2"-->
+<!--        android:rowCount="3">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--            <Button-->
+<!--                android:id="@+id/MHC_btnTuDien"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginLeft="60dp"-->
+<!--                android:background="@drawable/ic_tudien"></Button>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="65dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Từ điển"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/MHC_btnMauCau"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginLeft="80dp"-->
+<!--                android:background="@drawable/ic_maucau"></Button>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="85dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Mẫu câu"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/MHC_btnNguPhap"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginLeft="60dp"-->
+<!--                android:background="@drawable/ic_nguphap"></Button>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="65dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Ngữ pháp"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/MHC_btnNghe"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginLeft="80dp"-->
+<!--                android:background="@drawable/ic_nghe"></Button>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="85dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Bài nghe"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/MHC_btnVideo"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginLeft="60dp"-->
+<!--                android:background="@drawable/ic_video"></Button>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="75dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Video"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/MHC_btnThanhNgu"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginLeft="80dp"-->
+<!--                android:background="@drawable/ic_tucngu"></Button>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="75dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Thành ngữ"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"></TextView>-->
+<!--        </LinearLayout>-->
+<!--    </GridLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="100dp"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/ic_heart"-->
+<!--            android:id="@+id/MHC_btnLove"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            ></Button>-->
+<!--        <Button-->
+<!--            android:layout_marginRight="110dp"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/ic_home"-->
+<!--            android:id="@+id/MHC_btnHome"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            ></Button>-->
+<!--        <Button-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/ic_setting"-->
+<!--            android:id="@+id/MHC_btnSetting"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            ></Button>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

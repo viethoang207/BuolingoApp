@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TraCau">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/TraCau_edtTimCau"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Tìm kiếm mẫu câu"></EditText>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_search"
+            android:id="@+id/TraCau_btnTimCau"></Button>
+
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/TraCau_lvMauCau"></ListView>
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Buolingo Flash card"
+            android:id="@+id/TuVung_FlashCard"></Button>
+
+<!--        <AutoCompleteTextView-->
+<!--            android:id="@+id/TuVung_atcTimTu"-->
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:hint="Tìm kiếm từ ngữ"></AutoCompleteTextView>-->
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_ggtrans"
+            android:id="@+id/TuVung_btnGGTrans"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn chủ đề bạn muốn"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"></TextView>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/TuVung_btnDongVat"
+                    android:textSize="10sp"
+                    android:text="Động vật"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_dongvat"></Button>
+
+                <Button
+                    android:id="@+id/TuVung_btnMauSac"
+                    android:textSize="10sp"
+                    android:text="Màu sắc"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_mausac"></Button>
+                <Button
+                    android:id="@+id/TuVung_btnQuanAo"
+                    android:textSize="10sp"
+                    android:text="Quần áo"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_quanao"></Button>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/TuVung_btnThucVat"
+                    android:textSize="10sp"
+                    android:text="Thực vật"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_caycoi"></Button>
+
+                <Button
+                    android:id="@+id/TuVung_btnGiaDinh"
+                    android:textSize="10sp"
+                    android:text="Gia đình"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_giadinh"></Button>
+                <Button
+                    android:id="@+id/TuVung_btnNgheNghiep"
+                    android:textSize="10sp"
+                    android:text="Nghề nghiệp"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_nghenghiep"></Button>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/TuVung_btnNoiChon"
+                    android:textSize="10sp"
+                    android:text="Nơi chốn"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_noichon"></Button>
+
+                <Button
+                    android:id="@+id/TuVung_btnDuLich"
+                    android:textSize="10sp"
+                    android:text="Du lịch"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_dulich"></Button>
+                <Button
+                    android:id="@+id/TuVung_btnToanHoc"
+                    android:textSize="10sp"
+                    android:text="Toán học"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_toanhoc"></Button>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/TuVung_btnGiaoDuc"
+                    android:textSize="10sp"
+                    android:text="Giáo dục"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_giaoduc"></Button>
+
+                <Button
+                    android:id="@+id/TuVung_btnYTe"
+                    android:textSize="10sp"
+                    android:text="Y tế"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_yte"></Button>
+                <Button
+                    android:id="@+id/TuVung_btnKhoaHoc"
+                    android:textSize="10sp"
+                    android:text="Khoa Học"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
+                    android:drawableTop="@drawable/ic_khoahoc"></Button>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

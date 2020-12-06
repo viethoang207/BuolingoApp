@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.buolingo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Lyt_dangkyMK"></activity>
+        <activity android:name=".TuVungYeuThichActivity"></activity>
+        <activity android:name=".FlashCard" />
+        <activity android:name=".XemDapAn" />
+        <activity android:name=".XemKetQuaKiemTra" />
+        <activity android:name=".ggtrans" />
+        <activity android:name=".KiemTra" />
+        <activity android:name=".ChonDeKiemTra" />
+        <activity android:name=".XemTinTuc" />
+        <activity android:name=".Layout_TinTuc" />
+        <activity android:name=".XemVideo" />
+        <activity android:name=".DanhSachVideo" />
+        <activity android:name=".XemDTBQT" />
+        <activity android:name=".XemMauCau" />
+        <activity android:name=".ChiTiet_TuVung" />
+        <activity android:name=".XemTuVungTheoTheLoai" />
+        <activity android:name=".TraCau" />
+        <activity android:name=".lyt_dang_ki4" />
+        <activity android:name=".ManHinhChinh" />
+        <activity android:name=".Lyt_DangNhap" />
+        <activity android:name=".Lyt_DangKy3" />
+        <activity android:name=".Lyt_DangKy2" />
+        <activity android:name=".Lyt_DangKi1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChucNang_TuVung" />
+    </application>
+
+</manifest>
